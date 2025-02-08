@@ -1,0 +1,50 @@
+.game-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.game-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.game-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.download-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back-link {
+  display: block;
+  margin: 20px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
